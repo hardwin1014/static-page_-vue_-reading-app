@@ -10,7 +10,7 @@ import Vant, {
   Tab,
   Tabs,
   Card,
-  NavBar 
+  NavBar
 } from "vant";
 
 import "vant/lib/index.css";
@@ -19,7 +19,7 @@ import "vant/lib/index.css";
 import "amfe-flexible";
 // 全局css
 import "@/style/index.less"; 
-
+import "@/assets/css/fonts.css";
 Vue.config.productionTip = false;
 Vue.use(Vant, Icon);
 Vue.use(Lazyload);
@@ -28,7 +28,7 @@ Vue.use(GridItem);
 Vue.use(Tab);
 Vue.use(Tabs);
 Vue.use(Card);
-Vue.use(NavBar); 
+Vue.use(NavBar);
 
 new Vue({
   router,
